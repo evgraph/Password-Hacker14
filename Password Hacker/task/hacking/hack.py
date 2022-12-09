@@ -71,6 +71,7 @@ def main():
     parser.add_argument("port", type=int)
 
     args = parser.parse_args()
+    args = parser.parse_args()
 
     with socket.socket() as sock:
         sock.connect((args.hostname, args.port))
